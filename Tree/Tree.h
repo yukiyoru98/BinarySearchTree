@@ -34,38 +34,3 @@ public:
 	
 
 };
-
-/*#pragma once
-#include "TreeNode.h"
-#include <queue>
-#include <iostream>
-#include <vector>
-#include <iomanip>
-using namespace std;
-
-class Tree
-{
-public:
-	Tree();
-	Tree(vector<int>);
-	~Tree();
-	
-	//members
-	int depth;
-	int num_of_nodes;
-	TreeNode* root;
-	queue<TreeNode*> bfs_queue;
-
-	//functions
-	void Insert(int);//insert a TreeNode with a given value
-	//void Delete();//delete last node
-	void Preorder(TreeNode*);//start Preorder Traversal from the given node
-	void Postorder(TreeNode*);//start Postorder Traversal  from the given node
-	void Inorder(TreeNode*);//start Inorder Traversal from the given node
-	void BFS(TreeNode*);//start BFS from the given node
-	void printBFS(TreeNode*);
-	void printTree();
-	void printInfo();
-};
-
-*/
